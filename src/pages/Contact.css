@@ -1,0 +1,52 @@
+@import url('https://fonts.cdnfonts.com/css/public-pixel');
+@import url('https://fonts.cdnfonts.com/css/cascadia-code');
+
+
+.register{
+    padding-bottom: 3rem;
+
+    /* width: ; */
+}
+
+.register #h3{
+     font-family: "Public Pixel";
+     font-size: 1.6rem;
+     color: white;
+     padding: 2rem 2rem;
+}
+
+.register #usn, #pass {
+    margin: 1rem ;
+    background: transparent;
+    width: 40%;
+    font-size: 1.2rem;
+    padding: 5px 3px 3px 5px;
+    border-radius: 10px;
+    outline: none;
+    border: 2px solid white;
+    color: rgb(99, 171, 204);
+}
+
+.register a{
+    background: white;
+    color: black;
+    font-size: 1.1rem;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    padding: 5px 15px;
+    transition: 0.5s;
+    text-decoration: none;
+    font-family: 'Cascadia Code';
+}
+
+.register a:hover{
+    background: rgb(99, 171, 204);
+    letter-spacing: 0.25em;
+    box-shadow: 0 0 35px rgb(99, 171, 204);
+}
+
+.contact #social{
+    width: 3.5rem;
+    height: 2rem;
+    margin: 1rem;
+}
